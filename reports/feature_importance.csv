@@ -1,0 +1,21 @@
+Feature,Importance
+num__BMI,0.2732905537592042
+num__Age,0.1693272005300276
+num__Heart_Rate,0.1614231127671615
+num__Smoker,0.03993987026066227
+num__Diabetic,0.036732366273455636
+num__Cholesterol_Level,0.029349700511183106
+cat__Diagnosis_Code_A00,0.028356418459414546
+cat__City_chicago,0.028197044365452142
+cat__City_los angeles,0.025383865124478617
+cat__Diagnosis_Code_E11.9,0.024980056183685914
+cat__Diagnosis_Code_B20,0.02423187378785372
+cat__Diagnosis_Code_I10,0.023463151153029507
+cat__Gender_female,0.021521659194934834
+cat__City_boston,0.02137466932925687
+cat__Gender_male,0.020965283509864707
+cat__Follow_Up_30.0,0.019225327334517074
+cat__Follow_Up_14.0,0.016537501216303638
+cat__City_new york,0.015806462103090127
+cat__Medications_aspirin + metformin,0.011840253062841201
+cat__Medications_lisinopril + metformin,0.008053631073582623
