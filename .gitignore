@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE Files
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+
+# Model Artifacts
+artifacts/*.joblib
+artifacts/*.pkl
+artifacts/*.pickle
+
+# Reports
+reports/figures/
+reports/*.csv
+reports/*.png
+reports/*.jpg
+
+# Dataset (optional if restricted)
+data/*.csv
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Temporary Files
+*.tmp
+*.bak
