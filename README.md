@@ -319,8 +319,6 @@ Expected output:
 3 passed
 ```
 
-This is a strong addition because your tests now pass successfully.
-
 ---
 
 ### 5. Results
