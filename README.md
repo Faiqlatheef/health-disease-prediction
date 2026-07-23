@@ -325,11 +325,7 @@ This is a strong addition because your tests now pass successfully.
 
 ### 5. Results
 
-Rather than saying only "The repository includes", mention the actual deliverables:
-
 ```markdown
-
-## Results
 
 The project produces:
 
@@ -343,12 +339,6 @@ The project produces:
 - Predictions on unseen data
 
 ---
-## Model Evaluation Summary
-
-Five classification algorithms were evaluated using stratified 5-fold cross-validation, and hyperparameter optimization was performed using `RandomizedSearchCV`. Despite comprehensive data preprocessing, feature engineering, and model tuning, all models achieved ROC AUC scores close to **0.5**, indicating performance comparable to random guessing.
-
-Additional analyses, including correlation analysis, subgroup analysis, and feature importance evaluation, showed only weak relationships between the predictor variables and the target variable (`Has_Disease`). These results suggest that the provided dataset contains limited predictive signal, making it difficult for machine learning models to reliably distinguish between the target classes. Consequently, model performance appears to be constrained by the characteristics of the dataset rather than by the choice of algorithm or modeling approach.
----
 
 # Libraries Used
 
@@ -360,6 +350,14 @@ Additional analyses, including correlation analysis, subgroup analysis, and feat
 - Scikit-Learn
 - XGBoost
 - Joblib
+```
+---
+
+### 6. Model Evaluation Summary
+
+Five classification algorithms were evaluated using stratified 5-fold cross-validation, and hyperparameter optimization was performed using `RandomizedSearchCV`. Despite comprehensive data preprocessing, feature engineering, and model tuning, all models achieved ROC AUC scores close to **0.5**, indicating performance comparable to random guessing.
+
+Additional analyses, including correlation analysis, subgroup analysis, and feature importance evaluation, showed only weak relationships between the predictor variables and the target variable (`Has_Disease`). These results suggest that the provided dataset contains limited predictive signal, making it difficult for machine learning models to reliably distinguish between the target classes. Consequently, model performance appears to be constrained by the characteristics of the dataset rather than by the choice of algorithm or modeling approach.
 
 ---
 
