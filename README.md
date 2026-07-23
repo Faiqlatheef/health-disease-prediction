@@ -247,13 +247,10 @@ Example Output
 ```
 Patient ID : 1204
 
-Prediction :
+Prediction : Disease
 
-Disease
+Probability : 96.4%
 
-Probability :
-
-96.4%
 ```
 
 ---
