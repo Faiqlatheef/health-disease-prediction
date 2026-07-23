@@ -189,15 +189,6 @@ Advantages
 
 ---
 
-### XGBoost (Optional)
-
-Advantages
-
-- State-of-the-art boosting
-- Better generalization
-
----
-
 Cross Validation
 
 ```
@@ -351,11 +342,12 @@ The project produces:
 - Feature importance analysis
 - Predictions on unseen data
 
-Five classification algorithms were evaluated using stratified 5-fold cross-validation.
-Hyperparameter tuning was performed using RandomizedSearchCV.
-Despite comprehensive preprocessing and feature engineering, all models achieved ROC AUC values close to 0.5.
-Correlation analysis, subgroup analysis, and feature importance inspection indicated that the available predictors have little measurable relationship with the target variable.
-These findings suggest that the dataset contains limited predictive signal, preventing reliable classification regardless of the chosen algorithm.
+---
+## Model Evaluation Summary
+
+Five classification algorithms were evaluated using stratified 5-fold cross-validation, and hyperparameter optimization was performed using `RandomizedSearchCV`. Despite comprehensive data preprocessing, feature engineering, and model tuning, all models achieved ROC AUC scores close to **0.5**, indicating performance comparable to random guessing.
+
+Additional analyses, including correlation analysis, subgroup analysis, and feature importance evaluation, showed only weak relationships between the predictor variables and the target variable (`Has_Disease`). These results suggest that the provided dataset contains limited predictive signal, making it difficult for machine learning models to reliably distinguish between the target classes. Consequently, model performance appears to be constrained by the characteristics of the dataset rather than by the choice of algorithm or modeling approach.
 ---
 
 # Libraries Used
