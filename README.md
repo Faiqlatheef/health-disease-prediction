@@ -354,6 +354,7 @@ The project produces:
 - Feature importance analysis
 - Predictions on unseen data
 
+Five classification algorithms were evaluated using stratified 5-fold cross-validation. Hyperparameter tuning was performed using RandomizedSearchCV. Despite comprehensive preprocessing and feature engineering, all models achieved ROC AUC values close to 0.5. Correlation analysis, subgroup analysis, and feature importance inspection indicated that the available predictors have little measurable relationship with the target variable. These findings suggest that the dataset contains limited predictive signal, preventing reliable classification regardless of the chosen algorithm.
 ---
 
 # Libraries Used
